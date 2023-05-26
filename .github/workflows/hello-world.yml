@@ -7,7 +7,7 @@ on:
     
 jobs:
   echo_hello_world:
-    runs-on: ubuntu-lastest
+    runs-on: windows-lastest
     steps:
       - name: Printar Hello World
         run: echo hello world
