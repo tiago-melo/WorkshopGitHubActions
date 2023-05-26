@@ -4,10 +4,11 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
     
 jobs:
   echo_hello_world:
-    runs-on: windows-lastest
+    runs-on: ubuntu-lastest
     steps:
       - name: Printar Hello World
         run: echo hello world
