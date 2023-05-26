@@ -1,0 +1,15 @@
+name: Hello World TMELO
+
+on:
+  push:
+    branches:
+      - main
+    
+jobs:
+  echo_hello_world:
+    runs-on: ubuntu-lastest
+    steps:
+      - name: Printar Hello World
+        run: echo hello world
+      - name: Printar Charles chegou
+        run: echo charles chegou agora
